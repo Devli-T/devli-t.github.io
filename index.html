@@ -3,11 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Links</title>
+    <title>Devli-T Links</title>
     <style>
         body {
             font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-            background-color: #f4f4f5; /* Light grey background */
+            background-color: #f4f4f5;
             color: #333;
             display: flex;
             flex-direction: column;
@@ -25,11 +25,11 @@
             border-radius: 50%;
             margin-bottom: 16px;
             object-fit: cover;
+            border: 2px solid #e5e7eb;
         }
-        h1 { margin: 0 0 8px 0; font-size: 20px; font-weight: 700; }
-        p { margin: 0 0 32px 0; color: #666; }
+        h1 { margin: 0 0 8px 0; font-size: 22px; font-weight: 700; }
+        p { margin: 0 0 32px 0; color: #666; font-size: 16px; }
         
-        /* The Link Buttons */
         .link-card {
             display: block;
             background-color: white;
@@ -41,6 +41,10 @@
             color: #333;
             font-weight: 600;
             transition: transform 0.2s, box-shadow 0.2s;
+            display: flex; /* Aligns icon and text */
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
         }
         .link-card:hover {
             transform: translateY(-2px);
@@ -52,25 +56,29 @@
 <body>
 
     <div class="container">
-        <img src="https://github.com/github.png" alt="Profile" class="profile-img">
+        <img src="https://github.com/Devli-T.png" alt="Profile" class="profile-img">
         
-        <h1>your_handle</h1>
-        <p>Developer | Open Source Enthusiast</p>
+        <h1>Devli-T</h1>
+        <p>Researcher | Developer</p>
 
-        <a href="https://github.com/yourusername/awesome-project" class="link-card" target="_blank">
-            📂 View My Awesome Project
+        <a href="CoEvolutionary%20Selection%20Training%20for%20Efficient%20DNN%20Training%20Paper.pdf" class="link-card" target="_blank">
+            📄 CoEvolutionary Selection Training (DNN)
         </a>
 
-        <a href="https://github.com/yourusername/another-repo" class="link-card" target="_blank">
-            ⚛️ React Component Library
+        <a href="Motifcaller%20ML-Driven%20Decoding%20Tool%20for%20DNA%20Storage%20Data%20Paper.pdf" class="link-card" target="_blank">
+            🧬 Motifcaller: ML-Driven Decoding Tool
         </a>
 
-        <a href="resume.pdf" class="link-card" target="_blank">
-            📄 Download My Resume (PDF)
+        <a href="Reinforcement%20Learning%20and%20Blackjack%20Paper.pdf" class="link-card" target="_blank">
+            ♠️ Reinforcement Learning & Blackjack
         </a>
 
-        <a href="https://linkedin.com/in/yourname" class="link-card" target="_blank">
-            💼 LinkedIn
+        <a href="EPQ%20Report.pdf" class="link-card" target="_blank">
+            📊 EPQ Report
+        </a>
+
+        <a href="https://github.com/Devli-T" class="link-card" target="_blank">
+            📂 View GitHub Profile
         </a>
     </div>
 
